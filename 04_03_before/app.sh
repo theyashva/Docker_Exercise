@@ -6,7 +6,7 @@ start() {
 
 process() {
   _process() {
-    timeout "$((i*i))" yes &>/dev/null
+    # timeout "$((i*i))" yes &>/dev/null  # Assume that it is deleted
     echo "Application processing ($1/5)"
   }
 
